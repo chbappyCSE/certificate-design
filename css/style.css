@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'MyCambria';
+  src: url('Cambria_Italic.ttf')  format('truetype');
+}
+/* Google Fonts End */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'MyCambria';
+  font-weight: 300;
+}
+
+/* Browser Reset Code End */
+
+.title-5, .title-3{
+  text-align: center;
+  border-bottom: 2px dotted #3e6d78;
+  margin-left: 10px;
+  
+}
+.title-4{
+  text-align: left;
+  padding-left: 10px;
+  border-bottom: 2px dotted #3e6d78;
+  margin-left: 10px;
+  
+}
+
+.certificate_section .certificate_title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.certificate_section .certificate_button.text-end img {
+  width: 25px;
+}
+
+.certificate_section .certificate_content {
+  background: url('../images/certificate-bg.png');
+  padding: 100px;
+  padding-bottom: 0;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 220px;
+}
+
+.qr_img {
+  width: 35%;
+  float: right;
+  margin-right: 20px;
+}
+.cer_info {
+  padding: 20px 0;
+}
+
+.certificate_section .certificate_content .header_content {
+  margin-top: 30px;
+}
+
+.certificate_section .certificate_content .header_content h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.certificate_section .certificate_content .header_content h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.certificate_section .certificate_content .header_content h4 {
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 600;
+}
+
+.certificate_section .certificate_content .header_content h4 span {
+  font-weight: 400;
+}
+
+.certificate_section .certificate_content hr:not([size]) {
+  height: 1.5px;
+  color: #c4c4c4;
+  margin: 35px auto;
+}
+
+.certificate_section .certificate_content .certificate_personal_info {
+  margin: 20px 20px 50px;
+}
+
+.certificate_section .certificate_content .certificate_personal_info h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.certificate_section .certificate_content .certificate_personal_info h4 span {
+  font-weight: bold;
+}
+
+.certificate_section .certificate_content .certificate_personal_info p {
+  font-size: 16px;
+  line-height: 2;
+  margin: 40px 0px;
+}
+
+.certificate_section .certificate_content .certificate_personal_info p span {
+  font-weight: bold;
+}
+
+.certificate_section
+  .certificate_content
+  .certificate_personal_info
+  .signature_block {
+  margin-top: 70px;
+}
+
+.certificate_section
+  .certificate_content
+  .certificate_personal_info
+  .signature_block
+  .signature1 {
+  border-bottom: 1.5px solid #c4c4c4;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.certificate_section
+  .certificate_content
+  .certificate_personal_info
+  .signature_block
+  .sign_deg {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.certificate_section .certificate_content .unique_code {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.qr_content {
+  background: #eff3f3;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 50px 50px 150px;
+}
+
+.qr_content .success_text {
+  margin-bottom: 35px;
+}
+
+.qr_content .qr_top {
+  padding: 30px 20px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2d726f),
+    to(#4e6981)
+  );
+  background: linear-gradient(to right, #2d726f, #4e6981);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.qr_content .qr_top h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.qr_content .qr_top h5 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+
+.qr_content .qr_top h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.qr_content .qr_bottom {
+  padding: 30px 20px 100px;
+  background: #f1f5f5;
+  -webkit-box-shadow: 3px 5px 16px #d5dad6;
+  box-shadow: 3px 5px 16px #d5dad6;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.qr_content .qr_bottom h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.qr_content .qr_bottom p {
+  font-size: 16px;
+}
+
+.qr_content .qr_bottom .cmb {
+  margin-bottom: 10px;
+}
+
+.certificate_button.text-end img {
+  width: 25px;
+}
+
+.small_image {
+  width: 20%;
+}
+
+@media (max-width: 1400px) {
+  .certificate_section .certificate_content{
+    margin: 0 125px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .certificate_section .certificate_content {
+    padding: 50px 10px;
+    padding-bottom: 0;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  .certificate_section .certificate_content .header_content h4 {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .certificate_section .certificate_content .header_content h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .certificate_section .certificate_content .header_content h2 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .certificate_section .certificate_content .certificate_personal_info {
+    margin: 0;
+  }
+  .certificate_section .certificate_content .certificate_personal_info h4 {
+    font-size: 12px;
+  }
+  .certificate_section .certificate_content .certificate_personal_info p {
+    font-size: 12px;
+    margin: 30px 0px;
+  }
+  .certificate_section
+    .certificate_content
+    .certificate_personal_info
+    .signature_block
+    .sign_deg {
+    font-size: 12px;
+  }
+  .qr_content {
+    padding: 50px 10px 50px;
+  }
+  .small_image {
+    width: 75%;
+  }
+  .qr_content .qr_bottom h4,
+  .qr_content .qr_bottom p {
+    font-size: 12px;
+  }
+  .qr_content .qr_bottom {
+    padding-bottom: 50px;
+  }
+  .leftimg {
+    height: 35px !important;
+    margin-bottom: 10px;
+  }
+  .rightimg {
+    height: 30px !important;
+  }
+  .qr_code.text-center img {
+    width: 60px !important;
+  }
+}
+
+@media print {
+  body {
+    margin: 0;
+    background-color: #000;
+  }
+  .certificate_section .certificate_title {
+    display: none;
+  }
+  .certificate_button {
+    display: none;
+  }
+  .certificate_section
+    .certificate_content
+    .certificate_personal_info
+    .signature_block {
+    margin-top: 0px;
+    padding: 100px;
+  }
+  .certificate_section .certificate_content hr:not([size]) {
+    margin: 0;
+  }
+  .trainee_img {
+    text-align: center;
+  }
+  .certificate_section .certificate_content {
+    padding: 0 !important;
+    margin: 0!important;
+  }
+  .small_image {
+    width: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
